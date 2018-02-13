@@ -197,7 +197,6 @@
           if(typeof callback === "function"){
             this.goods = response.data.result;
             this.total =  response.data.total
-            console.log("666",this.goods);
             setTimeout(() => {
               this.loading = false;
             }, 1000);
